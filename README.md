@@ -1,3 +1,8 @@
+
+# elastalert0.2.1 启动
+cd /usr/local/elastalert
+nohup python3 -m elastalert.elastalert --verbose >/dev/null 2>&1 &
+
 # elastalert-wechat-plugin
 
 基于ElastAlert的微信企业号报警插件
