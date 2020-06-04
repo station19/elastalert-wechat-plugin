@@ -1,6 +1,11 @@
 
 # elastalert0.2.1 启动
 ```
+#进入 elastalert_modules 文件夹后 将新py文件内容覆盖脚本 
+cd elastalert-wechat-plugin/elastalert_modules/
+cat wechat_qiye_alert_new.py > wechat_qiye_alert.py
+
+#启动脚本
 cd /usr/local/elastalert
 nohup python3 -m elastalert.elastalert --verbose >/dev/null 2>&1 &
 ```
